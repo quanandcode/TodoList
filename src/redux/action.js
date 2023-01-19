@@ -1,31 +1,31 @@
 export const addToDo = (data) => {
   return {
     type: "todoList/addToDo",
-    payLoad: data,
+    payload: data,
   };
 };
 export const toggleStatus = (todoId) => {
   return {
     type: "todoList/toggleStatus",
-    payLoad: todoId,
+    payload: todoId,
   };
 };
 export const changeSearch = (text) => {
   return {
     type: "filter/changeSearch",
-    payLoad: text,
+    payload: text,
   };
 };
 
 export const changeFilterStatus = (status) => {
   return {
     type: "filter/changeFilterStatus",
-    payLoad: status,
+    payload: status,
   };
 };
 export const changeFilterPriority = (priorityList) => {
   return {
     type: "filter/changeFilterPriority",
-    payLoad: priorityList,
+    payload: priorityList,
   };
 };

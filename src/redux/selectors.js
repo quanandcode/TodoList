@@ -1,4 +1,4 @@
-import { createSelector } from "reselect";
+import { createSelector } from "@reduxjs/toolkit";
 
 const todoListSelectors = (state) => state.todoList;
 const searchTextSelectors = (state) => state.filter.search;
